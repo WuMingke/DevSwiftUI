@@ -11,6 +11,7 @@
 		8ADB600E2CE3ABAB00B3E218 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB600D2CE3ABAB00B3E218 /* ContentView.swift */; };
 		8ADB60102CE3ABAD00B3E218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ADB600F2CE3ABAD00B3E218 /* Assets.xcassets */; };
 		8ADB60132CE3ABAD00B3E218 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ADB60122CE3ABAD00B3E218 /* Preview Assets.xcassets */; };
+		8ADB601A2CE3B4E400B3E218 /* SwiftUIText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB60192CE3B4E400B3E218 /* SwiftUIText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8ADB600D2CE3ABAB00B3E218 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8ADB600F2CE3ABAD00B3E218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8ADB60122CE3ABAD00B3E218 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8ADB60192CE3B4E400B3E218 /* SwiftUIText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				8ADB600B2CE3ABAB00B3E218 /* DevSwiftUIApp.swift */,
 				8ADB600D2CE3ABAB00B3E218 /* ContentView.swift */,
+				8ADB60192CE3B4E400B3E218 /* SwiftUIText.swift */,
 				8ADB600F2CE3ABAD00B3E218 /* Assets.xcassets */,
 				8ADB60112CE3ABAD00B3E218 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8ADB600E2CE3ABAB00B3E218 /* ContentView.swift in Sources */,
+				8ADB601A2CE3B4E400B3E218 /* SwiftUIText.swift in Sources */,
 				8ADB600C2CE3ABAB00B3E218 /* DevSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
