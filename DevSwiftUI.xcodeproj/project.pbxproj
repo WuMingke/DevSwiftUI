@@ -10,6 +10,9 @@
 		8A76ED572CE4D0F00065FF66 /* SwiftUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A76ED562CE4D0EF0065FF66 /* SwiftUIImage.swift */; };
 		8A76ED592CE4DA540065FF66 /* SwiftUIStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A76ED582CE4DA540065FF66 /* SwiftUIStack.swift */; };
 		8A76ED5B2CE4DF970065FF66 /* StatusPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A76ED5A2CE4DF970065FF66 /* StatusPageView.swift */; };
+		8A76ED5D2CE50E760065FF66 /* 1.md in Resources */ = {isa = PBXBuildFile; fileRef = 8A76ED5C2CE50E760065FF66 /* 1.md */; };
+		8A76ED5F2CE50F2A0065FF66 /* SwiftLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A76ED5E2CE50F2A0065FF66 /* SwiftLanguage.swift */; };
+		8A76ED612CE516210065FF66 /* SwiftUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A76ED602CE516210065FF66 /* SwiftUIButton.swift */; };
 		8ADB600C2CE3ABAB00B3E218 /* DevSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB600B2CE3ABAB00B3E218 /* DevSwiftUIApp.swift */; };
 		8ADB600E2CE3ABAB00B3E218 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB600D2CE3ABAB00B3E218 /* ContentView.swift */; };
 		8ADB60102CE3ABAD00B3E218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ADB600F2CE3ABAD00B3E218 /* Assets.xcassets */; };
@@ -21,6 +24,9 @@
 		8A76ED562CE4D0EF0065FF66 /* SwiftUIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIImage.swift; sourceTree = "<group>"; };
 		8A76ED582CE4DA540065FF66 /* SwiftUIStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStack.swift; sourceTree = "<group>"; };
 		8A76ED5A2CE4DF970065FF66 /* StatusPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusPageView.swift; sourceTree = "<group>"; };
+		8A76ED5C2CE50E760065FF66 /* 1.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = 1.md; sourceTree = "<group>"; };
+		8A76ED5E2CE50F2A0065FF66 /* SwiftLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLanguage.swift; sourceTree = "<group>"; };
+		8A76ED602CE516210065FF66 /* SwiftUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIButton.swift; sourceTree = "<group>"; };
 		8ADB60082CE3ABAB00B3E218 /* DevSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ADB600B2CE3ABAB00B3E218 /* DevSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevSwiftUIApp.swift; sourceTree = "<group>"; };
 		8ADB600D2CE3ABAB00B3E218 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,14 +65,17 @@
 		8ADB600A2CE3ABAB00B3E218 /* DevSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				8A76ED5A2CE4DF970065FF66 /* StatusPageView.swift */,
 				8ADB600B2CE3ABAB00B3E218 /* DevSwiftUIApp.swift */,
 				8ADB600D2CE3ABAB00B3E218 /* ContentView.swift */,
-				8A76ED582CE4DA540065FF66 /* SwiftUIStack.swift */,
-				8A76ED562CE4D0EF0065FF66 /* SwiftUIImage.swift */,
 				8ADB60192CE3B4E400B3E218 /* SwiftUIText.swift */,
+				8A76ED562CE4D0EF0065FF66 /* SwiftUIImage.swift */,
+				8A76ED582CE4DA540065FF66 /* SwiftUIStack.swift */,
+				8A76ED5A2CE4DF970065FF66 /* StatusPageView.swift */,
+				8A76ED5E2CE50F2A0065FF66 /* SwiftLanguage.swift */,
+				8A76ED5C2CE50E760065FF66 /* 1.md */,
 				8ADB600F2CE3ABAD00B3E218 /* Assets.xcassets */,
 				8ADB60112CE3ABAD00B3E218 /* Preview Content */,
+				8A76ED602CE516210065FF66 /* SwiftUIButton.swift */,
 			);
 			path = DevSwiftUI;
 			sourceTree = "<group>";
@@ -137,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A76ED5D2CE50E760065FF66 /* 1.md in Resources */,
 				8ADB60132CE3ABAD00B3E218 /* Preview Assets.xcassets in Resources */,
 				8ADB60102CE3ABAD00B3E218 /* Assets.xcassets in Resources */,
 			);
@@ -152,7 +162,9 @@
 				8ADB600E2CE3ABAB00B3E218 /* ContentView.swift in Sources */,
 				8ADB601A2CE3B4E400B3E218 /* SwiftUIText.swift in Sources */,
 				8ADB600C2CE3ABAB00B3E218 /* DevSwiftUIApp.swift in Sources */,
+				8A76ED5F2CE50F2A0065FF66 /* SwiftLanguage.swift in Sources */,
 				8A76ED572CE4D0F00065FF66 /* SwiftUIImage.swift in Sources */,
+				8A76ED612CE516210065FF66 /* SwiftUIButton.swift in Sources */,
 				8A76ED592CE4DA540065FF66 /* SwiftUIStack.swift in Sources */,
 				8A76ED5B2CE4DF970065FF66 /* StatusPageView.swift in Sources */,
 			);
