@@ -39,3 +39,5 @@ Podfile.lock
 project.xcworkspace/
 xcuserdata/
 DevSwiftUI.xcodeproj/
+
+project.pbxproj

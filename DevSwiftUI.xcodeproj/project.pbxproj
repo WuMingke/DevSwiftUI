@@ -14,7 +14,6 @@
 		8A76ED5F2CE50F2A0065FF66 /* SwiftLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A76ED5E2CE50F2A0065FF66 /* SwiftLanguage.swift */; };
 		8A76ED612CE516210065FF66 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A76ED602CE516210065FF66 /* Button.swift */; };
 		8A76ED632CE6271C0065FF66 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A76ED622CE6271C0065FF66 /* TextField.swift */; };
-		8A76ED672CE62EFE0065FF66 /* Utils in Resources */ = {isa = PBXBuildFile; fileRef = 8A76ED662CE62EFE0065FF66 /* Utils */; };
 		8A76ED6B2CE631A30065FF66 /* TextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A76ED6A2CE631A30065FF66 /* TextEditor.swift */; };
 		8A76ED6D2CE636070065FF66 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A76ED6C2CE636070065FF66 /* ListView.swift */; };
 		8ADB600C2CE3ABAB00B3E218 /* DevSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB600B2CE3ABAB00B3E218 /* DevSwiftUIApp.swift */; };
@@ -24,6 +23,7 @@
 		8ADB601A2CE3B4E400B3E218 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB60192CE3B4E400B3E218 /* Text.swift */; };
 		926BAF442CE792F200F1D40F /* SentencesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926BAF432CE792F200F1D40F /* SentencesModel.swift */; };
 		926BAF462CE7942500F1D40F /* ListViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926BAF452CE7942500F1D40F /* ListViewDemo.swift */; };
+		926BAF492CE79BAA00F1D40F /* HildeKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926BAF482CE79BAA00F1D40F /* HildeKeyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +34,6 @@
 		8A76ED5E2CE50F2A0065FF66 /* SwiftLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLanguage.swift; sourceTree = "<group>"; };
 		8A76ED602CE516210065FF66 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		8A76ED622CE6271C0065FF66 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
-		8A76ED662CE62EFE0065FF66 /* Utils */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utils; sourceTree = "<group>"; };
 		8A76ED6A2CE631A30065FF66 /* TextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor.swift; sourceTree = "<group>"; };
 		8A76ED6C2CE636070065FF66 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		8ADB60082CE3ABAB00B3E218 /* DevSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +44,7 @@
 		8ADB60192CE3B4E400B3E218 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
 		926BAF432CE792F200F1D40F /* SentencesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentencesModel.swift; sourceTree = "<group>"; };
 		926BAF452CE7942500F1D40F /* ListViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewDemo.swift; sourceTree = "<group>"; };
+		926BAF482CE79BAA00F1D40F /* HildeKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HildeKeyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +77,8 @@
 		8ADB600A2CE3ABAB00B3E218 /* DevSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				926BAF472CE79B3200F1D40F /* Utils */,
 				926BAF422CE792CE00F1D40F /* Model */,
-				8A76ED662CE62EFE0065FF66 /* Utils */,
 				8ADB600B2CE3ABAB00B3E218 /* DevSwiftUIApp.swift */,
 				8ADB600D2CE3ABAB00B3E218 /* ContentView.swift */,
 				8ADB60192CE3B4E400B3E218 /* Text.swift */,
@@ -112,6 +112,14 @@
 				926BAF432CE792F200F1D40F /* SentencesModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		926BAF472CE79B3200F1D40F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				926BAF482CE79BAA00F1D40F /* HildeKeyboard.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,7 +182,6 @@
 			files = (
 				8A76ED5D2CE50E760065FF66 /* 1.md in Resources */,
 				8ADB60132CE3ABAD00B3E218 /* Preview Assets.xcassets in Resources */,
-				8A76ED672CE62EFE0065FF66 /* Utils in Resources */,
 				8ADB60102CE3ABAD00B3E218 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,6 +206,7 @@
 				8A76ED612CE516210065FF66 /* Button.swift in Sources */,
 				8A76ED592CE4DA540065FF66 /* Stack.swift in Sources */,
 				8A76ED5B2CE4DF970065FF66 /* StatusPageView.swift in Sources */,
+				926BAF492CE79BAA00F1D40F /* HildeKeyboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
