@@ -38,3 +38,4 @@ Podfile.lock
 *.xcuserstate
 project.xcworkspace/
 xcuserdata/
+DevSwiftUI.xcodeproj/
