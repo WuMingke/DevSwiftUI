@@ -12,7 +12,8 @@ struct DevSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            SwiftUITextField()
+//            SwiftUITextField()
+            ListViewDemo()
         }
     }
 }

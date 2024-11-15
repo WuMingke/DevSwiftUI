@@ -8,12 +8,39 @@
 import SwiftUI
 
 struct ListViewDemo: View {
+    @State var sentences = Sentences
     var body: some View {
-        List {
-            ForEach(Sentences) { item in
-                ListItem(image: item.image, text: item.text)
+        NavigationView {
+            ZStack {
+                Color(.systemGray5).edgesIgnoringSafeArea(.all) // 这里设置背景色
+                List {
+                    ForEach(sentences) { item in
+                        ListItem(image: item.image, text: item.text)
+                    }
+                    .onMove(perform: moveItem)
+                    .onDelete(perform: deleteItem)
+                    /// 隐藏分割线
+                    .listRowSeparator(.hidden)
+                    /// 清除自身白色
+                    .listRowBackground(Color.clear)
+                }
+                /// 这个居然是设置给 list 的！！
+                .navigationBarTitle("账号中心", displayMode: .inline)
+                .navigationBarItems(trailing: EditButton())
+                /// 列表样式
+                .listStyle(PlainListStyle())
             }
         }
+    }
+
+    // 移动item
+    func moveItem(from source: IndexSet, to dest: Int) {
+        sentences.move(fromOffsets: source, toOffset: dest)
+    }
+
+    // 删除item
+    func deleteItem(at offsets: IndexSet) {
+        sentences.remove(atOffsets: offsets)
     }
 }
 
