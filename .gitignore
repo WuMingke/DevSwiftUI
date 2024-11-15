@@ -34,3 +34,7 @@ Podfile.lock
 /.DS_Store
 Podfile.lock
 /Podfile.lock
+
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
