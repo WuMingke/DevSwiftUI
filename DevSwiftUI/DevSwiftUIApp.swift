@@ -13,7 +13,8 @@ struct DevSwiftUIApp: App {
         WindowGroup {
 //            ContentView()
 //            SwiftUITextField()
-            ListViewDemo()
+//            ListViewDemo()
+            NavigationViewDemo2()
         }
     }
 }

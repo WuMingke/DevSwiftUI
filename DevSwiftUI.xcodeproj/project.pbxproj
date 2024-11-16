@@ -21,6 +21,7 @@
 		8ADB60102CE3ABAD00B3E218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ADB600F2CE3ABAD00B3E218 /* Assets.xcassets */; };
 		8ADB60132CE3ABAD00B3E218 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ADB60122CE3ABAD00B3E218 /* Preview Assets.xcassets */; };
 		8ADB601A2CE3B4E400B3E218 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB60192CE3B4E400B3E218 /* Text.swift */; };
+		9248A2E22CE8A6F9009BCD57 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9248A2E12CE8A6F9009BCD57 /* NavigationView.swift */; };
 		926BAF442CE792F200F1D40F /* SentencesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926BAF432CE792F200F1D40F /* SentencesModel.swift */; };
 		926BAF462CE7942500F1D40F /* ListViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926BAF452CE7942500F1D40F /* ListViewDemo.swift */; };
 		926BAF492CE79BAA00F1D40F /* HildeKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926BAF482CE79BAA00F1D40F /* HildeKeyboard.swift */; };
@@ -42,6 +43,7 @@
 		8ADB600F2CE3ABAD00B3E218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8ADB60122CE3ABAD00B3E218 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8ADB60192CE3B4E400B3E218 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		9248A2E12CE8A6F9009BCD57 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 		926BAF432CE792F200F1D40F /* SentencesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentencesModel.swift; sourceTree = "<group>"; };
 		926BAF452CE7942500F1D40F /* ListViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewDemo.swift; sourceTree = "<group>"; };
 		926BAF482CE79BAA00F1D40F /* HildeKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HildeKeyboard.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				8A76ED6A2CE631A30065FF66 /* TextEditor.swift */,
 				8A76ED6C2CE636070065FF66 /* ListView.swift */,
 				926BAF452CE7942500F1D40F /* ListViewDemo.swift */,
+				9248A2E12CE8A6F9009BCD57 /* NavigationView.swift */,
 			);
 			path = DevSwiftUI;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				8A76ED632CE6271C0065FF66 /* TextField.swift in Sources */,
 				8A76ED6B2CE631A30065FF66 /* TextEditor.swift in Sources */,
 				8A76ED6D2CE636070065FF66 /* ListView.swift in Sources */,
+				9248A2E22CE8A6F9009BCD57 /* NavigationView.swift in Sources */,
 				926BAF462CE7942500F1D40F /* ListViewDemo.swift in Sources */,
 				8A76ED572CE4D0F00065FF66 /* Image.swift in Sources */,
 				926BAF442CE792F200F1D40F /* SentencesModel.swift in Sources */,
