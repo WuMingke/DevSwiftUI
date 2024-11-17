@@ -25,6 +25,15 @@
 		926BAF442CE792F200F1D40F /* SentencesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926BAF432CE792F200F1D40F /* SentencesModel.swift */; };
 		926BAF462CE7942500F1D40F /* ListViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926BAF452CE7942500F1D40F /* ListViewDemo.swift */; };
 		926BAF492CE79BAA00F1D40F /* HildeKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926BAF482CE79BAA00F1D40F /* HildeKeyboard.swift */; };
+		926E35482CE9D1C700AE08E5 /* IndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E35472CE9D1C700AE08E5 /* IndexView.swift */; };
+		926E354A2CE9DB9500AE08E5 /* BannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E35492CE9DB9500AE08E5 /* BannerModel.swift */; };
+		926E354C2CE9DE6800AE08E5 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E354B2CE9DE6800AE08E5 /* Form.swift */; };
+		926E354E2CE9ED6B00AE08E5 /* RGBDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E354D2CE9ED6B00AE08E5 /* RGBDemo.swift */; };
+		926E35512CE9F17E00AE08E5 /* ColorToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E35502CE9F17E00AE08E5 /* ColorToString.swift */; };
+		926E35532CE9F8EC00AE08E5 /* Dialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E35522CE9F8EC00AE08E5 /* Dialog.swift */; };
+		926E35552CE9F90E00AE08E5 /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E35542CE9F90E00AE08E5 /* NoteModel.swift */; };
+		926E35572CEA00CB00AE08E5 /* Dialog2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E35562CEA00CB00AE08E5 /* Dialog2.swift */; };
+		926E35592CEA02B300AE08E5 /* Dialog3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E35582CEA02B300AE08E5 /* Dialog3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +56,15 @@
 		926BAF432CE792F200F1D40F /* SentencesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentencesModel.swift; sourceTree = "<group>"; };
 		926BAF452CE7942500F1D40F /* ListViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewDemo.swift; sourceTree = "<group>"; };
 		926BAF482CE79BAA00F1D40F /* HildeKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HildeKeyboard.swift; sourceTree = "<group>"; };
+		926E35472CE9D1C700AE08E5 /* IndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexView.swift; sourceTree = "<group>"; };
+		926E35492CE9DB9500AE08E5 /* BannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerModel.swift; sourceTree = "<group>"; };
+		926E354B2CE9DE6800AE08E5 /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		926E354D2CE9ED6B00AE08E5 /* RGBDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBDemo.swift; sourceTree = "<group>"; };
+		926E35502CE9F17E00AE08E5 /* ColorToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorToString.swift; sourceTree = "<group>"; };
+		926E35522CE9F8EC00AE08E5 /* Dialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog.swift; sourceTree = "<group>"; };
+		926E35542CE9F90E00AE08E5 /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
+		926E35562CEA00CB00AE08E5 /* Dialog2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog2.swift; sourceTree = "<group>"; };
+		926E35582CEA02B300AE08E5 /* Dialog3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +97,7 @@
 		8ADB600A2CE3ABAB00B3E218 /* DevSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				926E354F2CE9F12700AE08E5 /* SupportFile */,
 				926BAF472CE79B3200F1D40F /* Utils */,
 				926BAF422CE792CE00F1D40F /* Model */,
 				8ADB600B2CE3ABAB00B3E218 /* DevSwiftUIApp.swift */,
@@ -97,6 +116,12 @@
 				8A76ED6C2CE636070065FF66 /* ListView.swift */,
 				926BAF452CE7942500F1D40F /* ListViewDemo.swift */,
 				9248A2E12CE8A6F9009BCD57 /* NavigationView.swift */,
+				926E35472CE9D1C700AE08E5 /* IndexView.swift */,
+				926E354B2CE9DE6800AE08E5 /* Form.swift */,
+				926E354D2CE9ED6B00AE08E5 /* RGBDemo.swift */,
+				926E35522CE9F8EC00AE08E5 /* Dialog.swift */,
+				926E35562CEA00CB00AE08E5 /* Dialog2.swift */,
+				926E35582CEA02B300AE08E5 /* Dialog3.swift */,
 			);
 			path = DevSwiftUI;
 			sourceTree = "<group>";
@@ -113,6 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				926BAF432CE792F200F1D40F /* SentencesModel.swift */,
+				926E35492CE9DB9500AE08E5 /* BannerModel.swift */,
+				926E35542CE9F90E00AE08E5 /* NoteModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -123,6 +150,14 @@
 				926BAF482CE79BAA00F1D40F /* HildeKeyboard.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		926E354F2CE9F12700AE08E5 /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				926E35502CE9F17E00AE08E5 /* ColorToString.swift */,
+			);
+			path = SupportFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,21 +231,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				926E35532CE9F8EC00AE08E5 /* Dialog.swift in Sources */,
 				8ADB600E2CE3ABAB00B3E218 /* ContentView.swift in Sources */,
 				8ADB601A2CE3B4E400B3E218 /* Text.swift in Sources */,
 				8ADB600C2CE3ABAB00B3E218 /* DevSwiftUIApp.swift in Sources */,
 				8A76ED5F2CE50F2A0065FF66 /* SwiftLanguage.swift in Sources */,
 				8A76ED632CE6271C0065FF66 /* TextField.swift in Sources */,
+				926E354E2CE9ED6B00AE08E5 /* RGBDemo.swift in Sources */,
+				926E35552CE9F90E00AE08E5 /* NoteModel.swift in Sources */,
+				926E354C2CE9DE6800AE08E5 /* Form.swift in Sources */,
 				8A76ED6B2CE631A30065FF66 /* TextEditor.swift in Sources */,
 				8A76ED6D2CE636070065FF66 /* ListView.swift in Sources */,
+				926E35592CEA02B300AE08E5 /* Dialog3.swift in Sources */,
 				9248A2E22CE8A6F9009BCD57 /* NavigationView.swift in Sources */,
+				926E354A2CE9DB9500AE08E5 /* BannerModel.swift in Sources */,
 				926BAF462CE7942500F1D40F /* ListViewDemo.swift in Sources */,
 				8A76ED572CE4D0F00065FF66 /* Image.swift in Sources */,
 				926BAF442CE792F200F1D40F /* SentencesModel.swift in Sources */,
 				8A76ED612CE516210065FF66 /* Button.swift in Sources */,
 				8A76ED592CE4DA540065FF66 /* Stack.swift in Sources */,
+				926E35482CE9D1C700AE08E5 /* IndexView.swift in Sources */,
 				8A76ED5B2CE4DF970065FF66 /* StatusPageView.swift in Sources */,
 				926BAF492CE79BAA00F1D40F /* HildeKeyboard.swift in Sources */,
+				926E35512CE9F17E00AE08E5 /* ColorToString.swift in Sources */,
+				926E35572CEA00CB00AE08E5 /* Dialog2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
