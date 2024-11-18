@@ -34,6 +34,8 @@
 		926E35552CE9F90E00AE08E5 /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E35542CE9F90E00AE08E5 /* NoteModel.swift */; };
 		926E35572CEA00CB00AE08E5 /* Dialog2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E35562CEA00CB00AE08E5 /* Dialog2.swift */; };
 		926E35592CEA02B300AE08E5 /* Dialog3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E35582CEA02B300AE08E5 /* Dialog3.swift */; };
+		92B6BCFE2CEB611B004AEB8F /* Dialog4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BCFD2CEB611B004AEB8F /* Dialog4.swift */; };
+		92B6BD002CEB633E004AEB8F /* Dialog5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BCFF2CEB633E004AEB8F /* Dialog5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +67,8 @@
 		926E35542CE9F90E00AE08E5 /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
 		926E35562CEA00CB00AE08E5 /* Dialog2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog2.swift; sourceTree = "<group>"; };
 		926E35582CEA02B300AE08E5 /* Dialog3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog3.swift; sourceTree = "<group>"; };
+		92B6BCFD2CEB611B004AEB8F /* Dialog4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog4.swift; sourceTree = "<group>"; };
+		92B6BCFF2CEB633E004AEB8F /* Dialog5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 				926E35522CE9F8EC00AE08E5 /* Dialog.swift */,
 				926E35562CEA00CB00AE08E5 /* Dialog2.swift */,
 				926E35582CEA02B300AE08E5 /* Dialog3.swift */,
+				92B6BCFD2CEB611B004AEB8F /* Dialog4.swift */,
+				92B6BCFF2CEB633E004AEB8F /* Dialog5.swift */,
 			);
 			path = DevSwiftUI;
 			sourceTree = "<group>";
@@ -243,8 +249,10 @@
 				8A76ED6B2CE631A30065FF66 /* TextEditor.swift in Sources */,
 				8A76ED6D2CE636070065FF66 /* ListView.swift in Sources */,
 				926E35592CEA02B300AE08E5 /* Dialog3.swift in Sources */,
+				92B6BCFE2CEB611B004AEB8F /* Dialog4.swift in Sources */,
 				9248A2E22CE8A6F9009BCD57 /* NavigationView.swift in Sources */,
 				926E354A2CE9DB9500AE08E5 /* BannerModel.swift in Sources */,
+				92B6BD002CEB633E004AEB8F /* Dialog5.swift in Sources */,
 				926BAF462CE7942500F1D40F /* ListViewDemo.swift in Sources */,
 				8A76ED572CE4D0F00065FF66 /* Image.swift in Sources */,
 				926BAF442CE792F200F1D40F /* SentencesModel.swift in Sources */,
