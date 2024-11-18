@@ -38,6 +38,12 @@
 		92B6BD002CEB633E004AEB8F /* Dialog5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BCFF2CEB633E004AEB8F /* Dialog5.swift */; };
 		92B6BD022CEB6548004AEB8F /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD012CEB6548004AEB8F /* ScrollView.swift */; };
 		92B6BD042CEB67C6004AEB8F /* DisclosureGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD032CEB67C6004AEB8F /* DisclosureGroup.swift */; };
+		92B6BD062CEB690B004AEB8F /* Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD052CEB690B004AEB8F /* Gesture.swift */; };
+		92B6BD082CEB72BC004AEB8F /* Gesture2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD072CEB72BC004AEB8F /* Gesture2.swift */; };
+		92B6BD0A2CEB749A004AEB8F /* Gesture3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD092CEB749A004AEB8F /* Gesture3.swift */; };
+		92B6BD0C2CEB76A9004AEB8F /* Gesture4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD0B2CEB76A9004AEB8F /* Gesture4.swift */; };
+		92B6BD0E2CEB78D2004AEB8F /* Gesture5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD0D2CEB78D2004AEB8F /* Gesture5.swift */; };
+		92B6BD102CEB7CC5004AEB8F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD0F2CEB7CC5004AEB8F /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +79,12 @@
 		92B6BCFF2CEB633E004AEB8F /* Dialog5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog5.swift; sourceTree = "<group>"; };
 		92B6BD012CEB6548004AEB8F /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
 		92B6BD032CEB67C6004AEB8F /* DisclosureGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroup.swift; sourceTree = "<group>"; };
+		92B6BD052CEB690B004AEB8F /* Gesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture.swift; sourceTree = "<group>"; };
+		92B6BD072CEB72BC004AEB8F /* Gesture2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture2.swift; sourceTree = "<group>"; };
+		92B6BD092CEB749A004AEB8F /* Gesture3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture3.swift; sourceTree = "<group>"; };
+		92B6BD0B2CEB76A9004AEB8F /* Gesture4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture4.swift; sourceTree = "<group>"; };
+		92B6BD0D2CEB78D2004AEB8F /* Gesture5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture5.swift; sourceTree = "<group>"; };
+		92B6BD0F2CEB7CC5004AEB8F /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +146,12 @@
 				92B6BCFF2CEB633E004AEB8F /* Dialog5.swift */,
 				92B6BD012CEB6548004AEB8F /* ScrollView.swift */,
 				92B6BD032CEB67C6004AEB8F /* DisclosureGroup.swift */,
+				92B6BD052CEB690B004AEB8F /* Gesture.swift */,
+				92B6BD072CEB72BC004AEB8F /* Gesture2.swift */,
+				92B6BD092CEB749A004AEB8F /* Gesture3.swift */,
+				92B6BD0B2CEB76A9004AEB8F /* Gesture4.swift */,
+				92B6BD0D2CEB78D2004AEB8F /* Gesture5.swift */,
+				92B6BD0F2CEB7CC5004AEB8F /* Color.swift */,
 			);
 			path = DevSwiftUI;
 			sourceTree = "<group>";
@@ -251,16 +269,20 @@
 				8A76ED632CE6271C0065FF66 /* TextField.swift in Sources */,
 				926E354E2CE9ED6B00AE08E5 /* RGBDemo.swift in Sources */,
 				926E35552CE9F90E00AE08E5 /* NoteModel.swift in Sources */,
+				92B6BD0A2CEB749A004AEB8F /* Gesture3.swift in Sources */,
 				926E354C2CE9DE6800AE08E5 /* Form.swift in Sources */,
 				8A76ED6B2CE631A30065FF66 /* TextEditor.swift in Sources */,
 				92B6BD042CEB67C6004AEB8F /* DisclosureGroup.swift in Sources */,
 				8A76ED6D2CE636070065FF66 /* ListView.swift in Sources */,
+				92B6BD082CEB72BC004AEB8F /* Gesture2.swift in Sources */,
+				92B6BD062CEB690B004AEB8F /* Gesture.swift in Sources */,
 				926E35592CEA02B300AE08E5 /* Dialog3.swift in Sources */,
 				92B6BCFE2CEB611B004AEB8F /* Dialog4.swift in Sources */,
 				9248A2E22CE8A6F9009BCD57 /* NavigationView.swift in Sources */,
 				926E354A2CE9DB9500AE08E5 /* BannerModel.swift in Sources */,
 				92B6BD002CEB633E004AEB8F /* Dialog5.swift in Sources */,
 				926BAF462CE7942500F1D40F /* ListViewDemo.swift in Sources */,
+				92B6BD102CEB7CC5004AEB8F /* Color.swift in Sources */,
 				92B6BD022CEB6548004AEB8F /* ScrollView.swift in Sources */,
 				8A76ED572CE4D0F00065FF66 /* Image.swift in Sources */,
 				926BAF442CE792F200F1D40F /* SentencesModel.swift in Sources */,
@@ -268,7 +290,9 @@
 				8A76ED592CE4DA540065FF66 /* Stack.swift in Sources */,
 				926E35482CE9D1C700AE08E5 /* IndexView.swift in Sources */,
 				8A76ED5B2CE4DF970065FF66 /* StatusPageView.swift in Sources */,
+				92B6BD0C2CEB76A9004AEB8F /* Gesture4.swift in Sources */,
 				926BAF492CE79BAA00F1D40F /* HildeKeyboard.swift in Sources */,
+				92B6BD0E2CEB78D2004AEB8F /* Gesture5.swift in Sources */,
 				926E35512CE9F17E00AE08E5 /* ColorToString.swift in Sources */,
 				926E35572CEA00CB00AE08E5 /* Dialog2.swift in Sources */,
 			);

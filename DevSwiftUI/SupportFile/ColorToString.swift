@@ -22,4 +22,43 @@ extension Color {
                       Int(rgba.green*255),
                       Int(rgba.blue*255))
     }
+
+    /// 支持十六进制颜色
+    init(hex: String) {
+            var sanitizedHex = hex.trimmingCharacters(in: .whitespacesAndNewlines)
+            
+            // 确保字符串以 "#" 开头
+            guard sanitizedHex.hasPrefix("#") else {
+                self = .clear // 无效输入，返回透明颜色
+                return
+            }
+            
+            // 移除 "#" 前缀
+            sanitizedHex.removeFirst()
+            
+            var hexNumber: UInt64 = 0
+            guard Scanner(string: sanitizedHex).scanHexInt64(&hexNumber) else {
+                self = .clear // 无效输入，返回透明颜色
+                return
+            }
+            
+            let r, g, b, a: Double
+            switch sanitizedHex.count {
+            case 6: // RGB (Hex: RRGGBB)
+                r = Double((hexNumber & 0xFF0000) >> 16) / 255
+                g = Double((hexNumber & 0x00FF00) >> 8) / 255
+                b = Double(hexNumber & 0x0000FF) / 255
+                a = 1.0
+            case 8: // ARGB (Hex: AARRGGBB)
+                a = Double((hexNumber & 0xFF000000) >> 24) / 255
+                r = Double((hexNumber & 0x00FF0000) >> 16) / 255
+                g = Double((hexNumber & 0x0000FF00) >> 8) / 255
+                b = Double(hexNumber & 0x000000FF) / 255
+            default:
+                self = .clear // 无效输入，返回透明颜色
+                return
+            }
+            
+            self.init(.sRGB, red: r, green: g, blue: b, opacity: a)
+        }
 }
