@@ -36,6 +36,8 @@
 		926E35592CEA02B300AE08E5 /* Dialog3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E35582CEA02B300AE08E5 /* Dialog3.swift */; };
 		92B6BCFE2CEB611B004AEB8F /* Dialog4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BCFD2CEB611B004AEB8F /* Dialog4.swift */; };
 		92B6BD002CEB633E004AEB8F /* Dialog5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BCFF2CEB633E004AEB8F /* Dialog5.swift */; };
+		92B6BD022CEB6548004AEB8F /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD012CEB6548004AEB8F /* ScrollView.swift */; };
+		92B6BD042CEB67C6004AEB8F /* DisclosureGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD032CEB67C6004AEB8F /* DisclosureGroup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +71,8 @@
 		926E35582CEA02B300AE08E5 /* Dialog3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog3.swift; sourceTree = "<group>"; };
 		92B6BCFD2CEB611B004AEB8F /* Dialog4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog4.swift; sourceTree = "<group>"; };
 		92B6BCFF2CEB633E004AEB8F /* Dialog5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog5.swift; sourceTree = "<group>"; };
+		92B6BD012CEB6548004AEB8F /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		92B6BD032CEB67C6004AEB8F /* DisclosureGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,8 @@
 				926E35582CEA02B300AE08E5 /* Dialog3.swift */,
 				92B6BCFD2CEB611B004AEB8F /* Dialog4.swift */,
 				92B6BCFF2CEB633E004AEB8F /* Dialog5.swift */,
+				92B6BD012CEB6548004AEB8F /* ScrollView.swift */,
+				92B6BD032CEB67C6004AEB8F /* DisclosureGroup.swift */,
 			);
 			path = DevSwiftUI;
 			sourceTree = "<group>";
@@ -247,6 +253,7 @@
 				926E35552CE9F90E00AE08E5 /* NoteModel.swift in Sources */,
 				926E354C2CE9DE6800AE08E5 /* Form.swift in Sources */,
 				8A76ED6B2CE631A30065FF66 /* TextEditor.swift in Sources */,
+				92B6BD042CEB67C6004AEB8F /* DisclosureGroup.swift in Sources */,
 				8A76ED6D2CE636070065FF66 /* ListView.swift in Sources */,
 				926E35592CEA02B300AE08E5 /* Dialog3.swift in Sources */,
 				92B6BCFE2CEB611B004AEB8F /* Dialog4.swift in Sources */,
@@ -254,6 +261,7 @@
 				926E354A2CE9DB9500AE08E5 /* BannerModel.swift in Sources */,
 				92B6BD002CEB633E004AEB8F /* Dialog5.swift in Sources */,
 				926BAF462CE7942500F1D40F /* ListViewDemo.swift in Sources */,
+				92B6BD022CEB6548004AEB8F /* ScrollView.swift in Sources */,
 				8A76ED572CE4D0F00065FF66 /* Image.swift in Sources */,
 				926BAF442CE792F200F1D40F /* SentencesModel.swift in Sources */,
 				8A76ED612CE516210065FF66 /* Button.swift in Sources */,
