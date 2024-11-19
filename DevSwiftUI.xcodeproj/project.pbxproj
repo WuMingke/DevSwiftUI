@@ -46,6 +46,11 @@
 		92B6BD102CEB7CC5004AEB8F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD0F2CEB7CC5004AEB8F /* Color.swift */; };
 		92B6BD122CEC3D2D004AEB8F /* DataFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD112CEC3D2D004AEB8F /* DataFlow.swift */; };
 		92B6BD142CEC4AA9004AEB8F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD132CEC4AA9004AEB8F /* ViewModel.swift */; };
+		92B6BD162CEC7031004AEB8F /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD152CEC7031004AEB8F /* NetworkRequest.swift */; };
+		92B6BD182CEC7049004AEB8F /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD172CEC7049004AEB8F /* ColorModel.swift */; };
+		92B6BD1A2CEC7402004AEB8F /* colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 92B6BD192CEC7402004AEB8F /* colors.json */; };
+		92B6BD1C2CEC7478004AEB8F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD1B2CEC7478004AEB8F /* Utils.swift */; };
+		92B6BD1E2CEC7C46004AEB8F /* NetworkRequestMVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD1D2CEC7C46004AEB8F /* NetworkRequestMVVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +94,11 @@
 		92B6BD0F2CEB7CC5004AEB8F /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		92B6BD112CEC3D2D004AEB8F /* DataFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFlow.swift; sourceTree = "<group>"; };
 		92B6BD132CEC4AA9004AEB8F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		92B6BD152CEC7031004AEB8F /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		92B6BD172CEC7049004AEB8F /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+		92B6BD192CEC7402004AEB8F /* colors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = colors.json; sourceTree = "<group>"; };
+		92B6BD1B2CEC7478004AEB8F /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		92B6BD1D2CEC7C46004AEB8F /* NetworkRequestMVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestMVVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +167,8 @@
 				92B6BD0D2CEB78D2004AEB8F /* Gesture5.swift */,
 				92B6BD0F2CEB7CC5004AEB8F /* Color.swift */,
 				92B6BD112CEC3D2D004AEB8F /* DataFlow.swift */,
+				92B6BD152CEC7031004AEB8F /* NetworkRequest.swift */,
+				92B6BD1D2CEC7C46004AEB8F /* NetworkRequestMVVM.swift */,
 			);
 			path = DevSwiftUI;
 			sourceTree = "<group>";
@@ -176,6 +188,8 @@
 				926E35492CE9DB9500AE08E5 /* BannerModel.swift */,
 				926E35542CE9F90E00AE08E5 /* NoteModel.swift */,
 				92B6BD132CEC4AA9004AEB8F /* ViewModel.swift */,
+				92B6BD172CEC7049004AEB8F /* ColorModel.swift */,
+				92B6BD192CEC7402004AEB8F /* colors.json */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				926BAF482CE79BAA00F1D40F /* HildeKeyboard.swift */,
+				92B6BD1B2CEC7478004AEB8F /* Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -255,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A76ED5D2CE50E760065FF66 /* 1.md in Resources */,
+				92B6BD1A2CEC7402004AEB8F /* colors.json in Resources */,
 				8ADB60132CE3ABAD00B3E218 /* Preview Assets.xcassets in Resources */,
 				8ADB60102CE3ABAD00B3E218 /* Assets.xcassets in Resources */,
 			);
@@ -272,6 +288,7 @@
 				8ADB601A2CE3B4E400B3E218 /* Text.swift in Sources */,
 				8ADB600C2CE3ABAB00B3E218 /* DevSwiftUIApp.swift in Sources */,
 				8A76ED5F2CE50F2A0065FF66 /* SwiftLanguage.swift in Sources */,
+				92B6BD1C2CEC7478004AEB8F /* Utils.swift in Sources */,
 				8A76ED632CE6271C0065FF66 /* TextField.swift in Sources */,
 				926E354E2CE9ED6B00AE08E5 /* RGBDemo.swift in Sources */,
 				926E35552CE9F90E00AE08E5 /* NoteModel.swift in Sources */,
@@ -286,6 +303,8 @@
 				92B6BD062CEB690B004AEB8F /* Gesture.swift in Sources */,
 				926E35592CEA02B300AE08E5 /* Dialog3.swift in Sources */,
 				92B6BCFE2CEB611B004AEB8F /* Dialog4.swift in Sources */,
+				92B6BD1E2CEC7C46004AEB8F /* NetworkRequestMVVM.swift in Sources */,
+				92B6BD182CEC7049004AEB8F /* ColorModel.swift in Sources */,
 				9248A2E22CE8A6F9009BCD57 /* NavigationView.swift in Sources */,
 				926E354A2CE9DB9500AE08E5 /* BannerModel.swift in Sources */,
 				92B6BD002CEB633E004AEB8F /* Dialog5.swift in Sources */,
@@ -293,6 +312,7 @@
 				92B6BD102CEB7CC5004AEB8F /* Color.swift in Sources */,
 				92B6BD022CEB6548004AEB8F /* ScrollView.swift in Sources */,
 				8A76ED572CE4D0F00065FF66 /* Image.swift in Sources */,
+				92B6BD162CEC7031004AEB8F /* NetworkRequest.swift in Sources */,
 				926BAF442CE792F200F1D40F /* SentencesModel.swift in Sources */,
 				8A76ED612CE516210065FF66 /* Button.swift in Sources */,
 				8A76ED592CE4DA540065FF66 /* Stack.swift in Sources */,

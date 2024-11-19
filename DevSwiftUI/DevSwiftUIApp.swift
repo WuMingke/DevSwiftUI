@@ -14,7 +14,8 @@ struct DevSwiftUIApp: App {
 //            ContentView()
 //            SwiftUITextField()
 //            ListViewDemo()
-            NavigationViewDemo2()
+//            NavigationViewDemo2()
+            NetworkRequest()
         }
     }
 }
