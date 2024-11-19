@@ -56,6 +56,8 @@
 		92B6BD242CECAF2D004AEB8F /* Graphics2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD232CECAF2D004AEB8F /* Graphics2.swift */; };
 		92B6BD262CECBBD8004AEB8F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD252CECBBD8004AEB8F /* ImagePicker.swift */; };
 		92B6BD282CECC2D6004AEB8F /* ImagePickerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD272CECC2D6004AEB8F /* ImagePickerDemo.swift */; };
+		92B6BD2A2CECCA1A004AEB8F /* AsImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD292CECCA1A004AEB8F /* AsImage.swift */; };
+		92B6BD2C2CECD29A004AEB8F /* SnapshotDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD2B2CECD29A004AEB8F /* SnapshotDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -109,6 +111,8 @@
 		92B6BD232CECAF2D004AEB8F /* Graphics2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphics2.swift; sourceTree = "<group>"; };
 		92B6BD252CECBBD8004AEB8F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		92B6BD272CECC2D6004AEB8F /* ImagePickerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerDemo.swift; sourceTree = "<group>"; };
+		92B6BD292CECCA1A004AEB8F /* AsImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsImage.swift; sourceTree = "<group>"; };
+		92B6BD2B2CECD29A004AEB8F /* SnapshotDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +187,7 @@
 				92B6BD212CECA5A2004AEB8F /* Graphics.swift */,
 				92B6BD232CECAF2D004AEB8F /* Graphics2.swift */,
 				92B6BD272CECC2D6004AEB8F /* ImagePickerDemo.swift */,
+				92B6BD2B2CECD29A004AEB8F /* SnapshotDemo.swift */,
 			);
 			path = DevSwiftUI;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 			children = (
 				926E35502CE9F17E00AE08E5 /* ColorToString.swift */,
 				92B6BD252CECBBD8004AEB8F /* ImagePicker.swift */,
+				92B6BD292CECCA1A004AEB8F /* AsImage.swift */,
 			);
 			path = SupportFile;
 			sourceTree = "<group>";
@@ -300,6 +306,7 @@
 			files = (
 				926E35532CE9F8EC00AE08E5 /* Dialog.swift in Sources */,
 				8ADB600E2CE3ABAB00B3E218 /* ContentView.swift in Sources */,
+				92B6BD2C2CECD29A004AEB8F /* SnapshotDemo.swift in Sources */,
 				8ADB601A2CE3B4E400B3E218 /* Text.swift in Sources */,
 				8ADB600C2CE3ABAB00B3E218 /* DevSwiftUIApp.swift in Sources */,
 				8A76ED5F2CE50F2A0065FF66 /* SwiftLanguage.swift in Sources */,
@@ -341,6 +348,7 @@
 				92B6BD0C2CEB76A9004AEB8F /* Gesture4.swift in Sources */,
 				926BAF492CE79BAA00F1D40F /* HildeKeyboard.swift in Sources */,
 				92B6BD0E2CEB78D2004AEB8F /* Gesture5.swift in Sources */,
+				92B6BD2A2CECCA1A004AEB8F /* AsImage.swift in Sources */,
 				926E35512CE9F17E00AE08E5 /* ColorToString.swift in Sources */,
 				926E35572CEA00CB00AE08E5 /* Dialog2.swift in Sources */,
 			);
@@ -474,10 +482,11 @@
 				DEVELOPMENT_TEAM = 8F5DZ5CZ3V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "我的提示：使用相机";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "我的提示：使用相册";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -503,10 +512,11 @@
 				DEVELOPMENT_TEAM = 8F5DZ5CZ3V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "我的提示：使用相机";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "我的提示：使用相册";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

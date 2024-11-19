@@ -10,6 +10,10 @@ import SwiftUI
 struct ImagePickerDemo: View {
     @State var selectImage: Image?
     @State private var showImagePicker = false
+
+    /// 相机需要真机，默认相册
+//    @State private var sourceType: UIImagePickerController.SourceType = .camera
+    @State private var sourceType: UIImagePickerController.SourceType = .photoLibrary
     var body: some View {
         VStack {
             if selectImage != nil {
@@ -30,10 +34,10 @@ struct ImagePickerDemo: View {
         .onTapGesture {
             showImagePicker.toggle()
         }
-        
+
         /// 怎么没有弹出权限？？
         .sheet(isPresented: $showImagePicker, content: {
-            ImagePicker(image: $selectImage)
+            ImagePicker(image: $selectImage, sourceType: sourceType)
         })
     }
 }

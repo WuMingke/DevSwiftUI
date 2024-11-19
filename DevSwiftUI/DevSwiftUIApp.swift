@@ -17,7 +17,8 @@ struct DevSwiftUIApp: App {
 //            NavigationViewDemo2()
 //            NetworkRequest()
 //            NoteApp()
-            ImagePickerDemo()
+//            ImagePickerDemo()
+            SnapshotDemo()
         }
     }
 }

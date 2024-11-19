@@ -12,6 +12,8 @@ struct ImagePicker: UIViewControllerRepresentable {
     /// 接收选择的图片
     @Binding var image: Image?
 
+    let sourceType: UIImagePickerController.SourceType
+
     /// 处理 UIImagePickerController 和 SwiftUI 之间的通信
     class Coordinator: NSObject, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
         @Binding var presentationMode: PresentationMode
@@ -45,11 +47,10 @@ struct ImagePicker: UIViewControllerRepresentable {
     func makeUIViewController(context: Context) -> some UIViewController {
         let picker = UIImagePickerController()
         picker.delegate = context.coordinator
+        picker.sourceType = sourceType
         return picker
     }
-    
+
     /// 这是重写的方法
-    func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {
-        
-    }
+    func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {}
 }
