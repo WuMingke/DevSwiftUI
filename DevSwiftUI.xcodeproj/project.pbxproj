@@ -44,6 +44,8 @@
 		92B6BD0C2CEB76A9004AEB8F /* Gesture4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD0B2CEB76A9004AEB8F /* Gesture4.swift */; };
 		92B6BD0E2CEB78D2004AEB8F /* Gesture5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD0D2CEB78D2004AEB8F /* Gesture5.swift */; };
 		92B6BD102CEB7CC5004AEB8F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD0F2CEB7CC5004AEB8F /* Color.swift */; };
+		92B6BD122CEC3D2D004AEB8F /* DataFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD112CEC3D2D004AEB8F /* DataFlow.swift */; };
+		92B6BD142CEC4AA9004AEB8F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD132CEC4AA9004AEB8F /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +87,8 @@
 		92B6BD0B2CEB76A9004AEB8F /* Gesture4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture4.swift; sourceTree = "<group>"; };
 		92B6BD0D2CEB78D2004AEB8F /* Gesture5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture5.swift; sourceTree = "<group>"; };
 		92B6BD0F2CEB7CC5004AEB8F /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		92B6BD112CEC3D2D004AEB8F /* DataFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFlow.swift; sourceTree = "<group>"; };
+		92B6BD132CEC4AA9004AEB8F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +156,7 @@
 				92B6BD0B2CEB76A9004AEB8F /* Gesture4.swift */,
 				92B6BD0D2CEB78D2004AEB8F /* Gesture5.swift */,
 				92B6BD0F2CEB7CC5004AEB8F /* Color.swift */,
+				92B6BD112CEC3D2D004AEB8F /* DataFlow.swift */,
 			);
 			path = DevSwiftUI;
 			sourceTree = "<group>";
@@ -170,6 +175,7 @@
 				926BAF432CE792F200F1D40F /* SentencesModel.swift */,
 				926E35492CE9DB9500AE08E5 /* BannerModel.swift */,
 				926E35542CE9F90E00AE08E5 /* NoteModel.swift */,
+				92B6BD132CEC4AA9004AEB8F /* ViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -271,7 +277,9 @@
 				926E35552CE9F90E00AE08E5 /* NoteModel.swift in Sources */,
 				92B6BD0A2CEB749A004AEB8F /* Gesture3.swift in Sources */,
 				926E354C2CE9DE6800AE08E5 /* Form.swift in Sources */,
+				92B6BD142CEC4AA9004AEB8F /* ViewModel.swift in Sources */,
 				8A76ED6B2CE631A30065FF66 /* TextEditor.swift in Sources */,
+				92B6BD122CEC3D2D004AEB8F /* DataFlow.swift in Sources */,
 				92B6BD042CEB67C6004AEB8F /* DisclosureGroup.swift in Sources */,
 				8A76ED6D2CE636070065FF66 /* ListView.swift in Sources */,
 				92B6BD082CEB72BC004AEB8F /* Gesture2.swift in Sources */,
