@@ -51,6 +51,7 @@
 		92B6BD1A2CEC7402004AEB8F /* colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 92B6BD192CEC7402004AEB8F /* colors.json */; };
 		92B6BD1C2CEC7478004AEB8F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD1B2CEC7478004AEB8F /* Utils.swift */; };
 		92B6BD1E2CEC7C46004AEB8F /* NetworkRequestMVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD1D2CEC7C46004AEB8F /* NetworkRequestMVVM.swift */; };
+		92B6BD202CEC8A57004AEB8F /* NoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD1F2CEC8A57004AEB8F /* NoteApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +100,7 @@
 		92B6BD192CEC7402004AEB8F /* colors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = colors.json; sourceTree = "<group>"; };
 		92B6BD1B2CEC7478004AEB8F /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		92B6BD1D2CEC7C46004AEB8F /* NetworkRequestMVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestMVVM.swift; sourceTree = "<group>"; };
+		92B6BD1F2CEC8A57004AEB8F /* NoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 				92B6BD112CEC3D2D004AEB8F /* DataFlow.swift */,
 				92B6BD152CEC7031004AEB8F /* NetworkRequest.swift */,
 				92B6BD1D2CEC7C46004AEB8F /* NetworkRequestMVVM.swift */,
+				92B6BD1F2CEC8A57004AEB8F /* NoteApp.swift */,
 			);
 			path = DevSwiftUI;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				926E35552CE9F90E00AE08E5 /* NoteModel.swift in Sources */,
 				92B6BD0A2CEB749A004AEB8F /* Gesture3.swift in Sources */,
 				926E354C2CE9DE6800AE08E5 /* Form.swift in Sources */,
+				92B6BD202CEC8A57004AEB8F /* NoteApp.swift in Sources */,
 				92B6BD142CEC4AA9004AEB8F /* ViewModel.swift in Sources */,
 				8A76ED6B2CE631A30065FF66 /* TextEditor.swift in Sources */,
 				92B6BD122CEC3D2D004AEB8F /* DataFlow.swift in Sources */,
