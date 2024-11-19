@@ -52,6 +52,10 @@
 		92B6BD1C2CEC7478004AEB8F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD1B2CEC7478004AEB8F /* Utils.swift */; };
 		92B6BD1E2CEC7C46004AEB8F /* NetworkRequestMVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD1D2CEC7C46004AEB8F /* NetworkRequestMVVM.swift */; };
 		92B6BD202CEC8A57004AEB8F /* NoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD1F2CEC8A57004AEB8F /* NoteApp.swift */; };
+		92B6BD222CECA5A2004AEB8F /* Graphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD212CECA5A2004AEB8F /* Graphics.swift */; };
+		92B6BD242CECAF2D004AEB8F /* Graphics2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD232CECAF2D004AEB8F /* Graphics2.swift */; };
+		92B6BD262CECBBD8004AEB8F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD252CECBBD8004AEB8F /* ImagePicker.swift */; };
+		92B6BD282CECC2D6004AEB8F /* ImagePickerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD272CECC2D6004AEB8F /* ImagePickerDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -101,6 +105,10 @@
 		92B6BD1B2CEC7478004AEB8F /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		92B6BD1D2CEC7C46004AEB8F /* NetworkRequestMVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestMVVM.swift; sourceTree = "<group>"; };
 		92B6BD1F2CEC8A57004AEB8F /* NoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteApp.swift; sourceTree = "<group>"; };
+		92B6BD212CECA5A2004AEB8F /* Graphics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphics.swift; sourceTree = "<group>"; };
+		92B6BD232CECAF2D004AEB8F /* Graphics2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphics2.swift; sourceTree = "<group>"; };
+		92B6BD252CECBBD8004AEB8F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		92B6BD272CECC2D6004AEB8F /* ImagePickerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +180,9 @@
 				92B6BD152CEC7031004AEB8F /* NetworkRequest.swift */,
 				92B6BD1D2CEC7C46004AEB8F /* NetworkRequestMVVM.swift */,
 				92B6BD1F2CEC8A57004AEB8F /* NoteApp.swift */,
+				92B6BD212CECA5A2004AEB8F /* Graphics.swift */,
+				92B6BD232CECAF2D004AEB8F /* Graphics2.swift */,
+				92B6BD272CECC2D6004AEB8F /* ImagePickerDemo.swift */,
 			);
 			path = DevSwiftUI;
 			sourceTree = "<group>";
@@ -210,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				926E35502CE9F17E00AE08E5 /* ColorToString.swift */,
+				92B6BD252CECBBD8004AEB8F /* ImagePicker.swift */,
 			);
 			path = SupportFile;
 			sourceTree = "<group>";
@@ -302,7 +314,9 @@
 				8A76ED6B2CE631A30065FF66 /* TextEditor.swift in Sources */,
 				92B6BD122CEC3D2D004AEB8F /* DataFlow.swift in Sources */,
 				92B6BD042CEB67C6004AEB8F /* DisclosureGroup.swift in Sources */,
+				92B6BD242CECAF2D004AEB8F /* Graphics2.swift in Sources */,
 				8A76ED6D2CE636070065FF66 /* ListView.swift in Sources */,
+				92B6BD282CECC2D6004AEB8F /* ImagePickerDemo.swift in Sources */,
 				92B6BD082CEB72BC004AEB8F /* Gesture2.swift in Sources */,
 				92B6BD062CEB690B004AEB8F /* Gesture.swift in Sources */,
 				926E35592CEA02B300AE08E5 /* Dialog3.swift in Sources */,
@@ -310,9 +324,11 @@
 				92B6BD1E2CEC7C46004AEB8F /* NetworkRequestMVVM.swift in Sources */,
 				92B6BD182CEC7049004AEB8F /* ColorModel.swift in Sources */,
 				9248A2E22CE8A6F9009BCD57 /* NavigationView.swift in Sources */,
+				92B6BD222CECA5A2004AEB8F /* Graphics.swift in Sources */,
 				926E354A2CE9DB9500AE08E5 /* BannerModel.swift in Sources */,
 				92B6BD002CEB633E004AEB8F /* Dialog5.swift in Sources */,
 				926BAF462CE7942500F1D40F /* ListViewDemo.swift in Sources */,
+				92B6BD262CECBBD8004AEB8F /* ImagePicker.swift in Sources */,
 				92B6BD102CEB7CC5004AEB8F /* Color.swift in Sources */,
 				92B6BD022CEB6548004AEB8F /* ScrollView.swift in Sources */,
 				8A76ED572CE4D0F00065FF66 /* Image.swift in Sources */,

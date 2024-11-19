@@ -13,9 +13,11 @@ struct ColorDemo: View {
     private var imageColor: Color = .init("imageColor")
     private var textColor: Color = .green
     var body: some View {
-        VStack(spacing: 40, content: {
+        VStack(spacing: 40) {
+            
             Image(systemName: "heart.fill")
                 .foregroundColor(imageColor)
+            
             Text("云深不知处")
                 .foregroundColor(textColor)
                 .padding()
@@ -46,7 +48,7 @@ struct ColorDemo: View {
                 .background(
                     Color(hex: "#8fd3f4")
                 )
-        })
+        }
     }
 }
 
