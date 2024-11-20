@@ -58,6 +58,8 @@
 		92B6BD282CECC2D6004AEB8F /* ImagePickerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD272CECC2D6004AEB8F /* ImagePickerDemo.swift */; };
 		92B6BD2A2CECCA1A004AEB8F /* AsImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD292CECCA1A004AEB8F /* AsImage.swift */; };
 		92B6BD2C2CECD29A004AEB8F /* SnapshotDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD2B2CECD29A004AEB8F /* SnapshotDemo.swift */; };
+		92B6BD2E2CEDC076004AEB8F /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD2D2CEDC076004AEB8F /* ImageSaver.swift */; };
+		92B6BD302CEDC721004AEB8F /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD2F2CEDC721004AEB8F /* ShareSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -113,6 +115,8 @@
 		92B6BD272CECC2D6004AEB8F /* ImagePickerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerDemo.swift; sourceTree = "<group>"; };
 		92B6BD292CECCA1A004AEB8F /* AsImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsImage.swift; sourceTree = "<group>"; };
 		92B6BD2B2CECD29A004AEB8F /* SnapshotDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotDemo.swift; sourceTree = "<group>"; };
+		92B6BD2D2CEDC076004AEB8F /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		92B6BD2F2CEDC721004AEB8F /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +232,8 @@
 				926E35502CE9F17E00AE08E5 /* ColorToString.swift */,
 				92B6BD252CECBBD8004AEB8F /* ImagePicker.swift */,
 				92B6BD292CECCA1A004AEB8F /* AsImage.swift */,
+				92B6BD2D2CEDC076004AEB8F /* ImageSaver.swift */,
+				92B6BD2F2CEDC721004AEB8F /* ShareSheet.swift */,
 			);
 			path = SupportFile;
 			sourceTree = "<group>";
@@ -335,6 +341,7 @@
 				926E354A2CE9DB9500AE08E5 /* BannerModel.swift in Sources */,
 				92B6BD002CEB633E004AEB8F /* Dialog5.swift in Sources */,
 				926BAF462CE7942500F1D40F /* ListViewDemo.swift in Sources */,
+				92B6BD2E2CEDC076004AEB8F /* ImageSaver.swift in Sources */,
 				92B6BD262CECBBD8004AEB8F /* ImagePicker.swift in Sources */,
 				92B6BD102CEB7CC5004AEB8F /* Color.swift in Sources */,
 				92B6BD022CEB6548004AEB8F /* ScrollView.swift in Sources */,
@@ -351,6 +358,7 @@
 				92B6BD2A2CECCA1A004AEB8F /* AsImage.swift in Sources */,
 				926E35512CE9F17E00AE08E5 /* ColorToString.swift in Sources */,
 				926E35572CEA00CB00AE08E5 /* Dialog2.swift in Sources */,
+				92B6BD302CEDC721004AEB8F /* ShareSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

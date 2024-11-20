@@ -8,14 +8,29 @@
 import SwiftUI
 
 struct SnapshotDemo: View {
+    @State private var uiImage: UIImage?
+    @State private var showShareSheet = false
     var body: some View {
         VStack {
             imageCard
-//                .onTapGesture {
-//                    print(imageCard.snapshot())
-//                }
-            // TODO: 有问题
-//            Image(uiImage: imageCard.snapshot()!)
+                // 单击 双击 同时存在时，需要额外的处理
+                .onTapGesture {
+                    /// 1 截图
+                    uiImage = imageCard.snapshot()
+                    /// 2 保存
+//                    let imageSaver = ImageSaver()
+//                    imageSaver.writeToPhotoAlbum(image: imageCard.snapshot()!)
+
+                    /// 3 分享
+                    showShareSheet.toggle()
+                }
+                .sheet(isPresented: $showShareSheet, content: {
+                    ShareSheet(items: uiImage as Any)
+                })
+            // snapshot() 不能立马完成，所以直接使用展示不出来
+            if uiImage != nil {
+                Image(uiImage: imageCard.snapshot()!)
+            }
         }
     }
 
