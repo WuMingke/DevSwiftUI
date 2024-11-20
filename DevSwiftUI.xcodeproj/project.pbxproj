@@ -63,6 +63,7 @@
 		92B6BD322CEDCBF7004AEB8F /* WoodFish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD312CEDCBF7004AEB8F /* WoodFish.swift */; };
 		92B6BD342CEDCF3F004AEB8F /* woodfishmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92B6BD332CEDCF3F004AEB8F /* woodfishmusic.mp3 */; };
 		92B6BD362CEDE993004AEB8F /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD352CEDE993004AEB8F /* Time.swift */; };
+		92B6BD382CEDEE09004AEB8F /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD372CEDEE09004AEB8F /* Modifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -123,6 +124,7 @@
 		92B6BD312CEDCBF7004AEB8F /* WoodFish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoodFish.swift; sourceTree = "<group>"; };
 		92B6BD332CEDCF3F004AEB8F /* woodfishmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = woodfishmusic.mp3; sourceTree = "<group>"; };
 		92B6BD352CEDE993004AEB8F /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		92B6BD372CEDEE09004AEB8F /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +202,7 @@
 				92B6BD2B2CECD29A004AEB8F /* SnapshotDemo.swift */,
 				92B6BD312CEDCBF7004AEB8F /* WoodFish.swift */,
 				92B6BD352CEDE993004AEB8F /* Time.swift */,
+				92B6BD372CEDEE09004AEB8F /* Modifier.swift */,
 			);
 			path = DevSwiftUI;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				8A76ED5F2CE50F2A0065FF66 /* SwiftLanguage.swift in Sources */,
 				92B6BD1C2CEC7478004AEB8F /* Utils.swift in Sources */,
 				8A76ED632CE6271C0065FF66 /* TextField.swift in Sources */,
+				92B6BD382CEDEE09004AEB8F /* Modifier.swift in Sources */,
 				926E354E2CE9ED6B00AE08E5 /* RGBDemo.swift in Sources */,
 				926E35552CE9F90E00AE08E5 /* NoteModel.swift in Sources */,
 				92B6BD0A2CEB749A004AEB8F /* Gesture3.swift in Sources */,
