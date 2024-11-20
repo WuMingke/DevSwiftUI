@@ -11,6 +11,9 @@ import SwiftUI
 class WoodFishViewModel: ObservableObject {
     private var soundPlayer: AVAudioPlayer?
     private var lastResourece: String?
+    private var synthesizer = AVSpeechSynthesizer()
+
+    /// 播放
     func playAudio(forResource: String, ofType: String) {
         if soundPlayer != nil && lastResourece == forResource {
             soundPlayer?.play()
@@ -25,6 +28,15 @@ class WoodFishViewModel: ObservableObject {
         } catch {
             print("播放异常")
         }
+    }
+
+    func speak(words: String) {
+        let utterance = AVSpeechUtterance(string: words)
+        utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
+        utterance.rate = 0.5
+        utterance.pitchMultiplier = 1.2
+        utterance.volume = 1.0
+        synthesizer.speak(utterance)
     }
 }
 
@@ -41,7 +53,10 @@ struct WoodFish: View {
                 .scaleEffect(isPressed ? 0.9 : 1.0)
                 //
                 .onTapGesture {
-                    viewModel.playAudio(forResource: "woodfishmusic", ofType: "mp3")
+                    // 播放音乐
+//                    viewModel.playAudio(forResource: "woodfishmusic", ofType: "mp3")
+                    // 文字转语音
+                    viewModel.speak(words: "wood fish music")
                 }
 
 //                .gesture(
