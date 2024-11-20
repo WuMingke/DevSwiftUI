@@ -60,6 +60,8 @@
 		92B6BD2C2CECD29A004AEB8F /* SnapshotDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD2B2CECD29A004AEB8F /* SnapshotDemo.swift */; };
 		92B6BD2E2CEDC076004AEB8F /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD2D2CEDC076004AEB8F /* ImageSaver.swift */; };
 		92B6BD302CEDC721004AEB8F /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD2F2CEDC721004AEB8F /* ShareSheet.swift */; };
+		92B6BD322CEDCBF7004AEB8F /* WoodFish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD312CEDCBF7004AEB8F /* WoodFish.swift */; };
+		92B6BD342CEDCF3F004AEB8F /* woodfishmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92B6BD332CEDCF3F004AEB8F /* woodfishmusic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -117,6 +119,8 @@
 		92B6BD2B2CECD29A004AEB8F /* SnapshotDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotDemo.swift; sourceTree = "<group>"; };
 		92B6BD2D2CEDC076004AEB8F /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 		92B6BD2F2CEDC721004AEB8F /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		92B6BD312CEDCBF7004AEB8F /* WoodFish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoodFish.swift; sourceTree = "<group>"; };
+		92B6BD332CEDCF3F004AEB8F /* woodfishmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = woodfishmusic.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +196,7 @@
 				92B6BD232CECAF2D004AEB8F /* Graphics2.swift */,
 				92B6BD272CECC2D6004AEB8F /* ImagePickerDemo.swift */,
 				92B6BD2B2CECD29A004AEB8F /* SnapshotDemo.swift */,
+				92B6BD312CEDCBF7004AEB8F /* WoodFish.swift */,
 			);
 			path = DevSwiftUI;
 			sourceTree = "<group>";
@@ -207,6 +212,7 @@
 		926BAF422CE792CE00F1D40F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				92B6BD332CEDCF3F004AEB8F /* woodfishmusic.mp3 */,
 				926BAF432CE792F200F1D40F /* SentencesModel.swift */,
 				926E35492CE9DB9500AE08E5 /* BannerModel.swift */,
 				926E35542CE9F90E00AE08E5 /* NoteModel.swift */,
@@ -296,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92B6BD342CEDCF3F004AEB8F /* woodfishmusic.mp3 in Resources */,
 				8A76ED5D2CE50E760065FF66 /* 1.md in Resources */,
 				92B6BD1A2CEC7402004AEB8F /* colors.json in Resources */,
 				8ADB60132CE3ABAD00B3E218 /* Preview Assets.xcassets in Resources */,
@@ -330,6 +337,7 @@
 				92B6BD242CECAF2D004AEB8F /* Graphics2.swift in Sources */,
 				8A76ED6D2CE636070065FF66 /* ListView.swift in Sources */,
 				92B6BD282CECC2D6004AEB8F /* ImagePickerDemo.swift in Sources */,
+				92B6BD322CEDCBF7004AEB8F /* WoodFish.swift in Sources */,
 				92B6BD082CEB72BC004AEB8F /* Gesture2.swift in Sources */,
 				92B6BD062CEB690B004AEB8F /* Gesture.swift in Sources */,
 				926E35592CEA02B300AE08E5 /* Dialog3.swift in Sources */,
