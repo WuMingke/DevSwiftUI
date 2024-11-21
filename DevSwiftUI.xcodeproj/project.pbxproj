@@ -64,6 +64,7 @@
 		92B6BD342CEDCF3F004AEB8F /* woodfishmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92B6BD332CEDCF3F004AEB8F /* woodfishmusic.mp3 */; };
 		92B6BD362CEDE993004AEB8F /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD352CEDE993004AEB8F /* Time.swift */; };
 		92B6BD382CEDEE09004AEB8F /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD372CEDEE09004AEB8F /* Modifier.swift */; };
+		92B6BD3A2CEF0756004AEB8F /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD392CEF0756004AEB8F /* Toast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -125,6 +126,7 @@
 		92B6BD332CEDCF3F004AEB8F /* woodfishmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = woodfishmusic.mp3; sourceTree = "<group>"; };
 		92B6BD352CEDE993004AEB8F /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
 		92B6BD372CEDEE09004AEB8F /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
+		92B6BD392CEF0756004AEB8F /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +205,7 @@
 				92B6BD312CEDCBF7004AEB8F /* WoodFish.swift */,
 				92B6BD352CEDE993004AEB8F /* Time.swift */,
 				92B6BD372CEDEE09004AEB8F /* Modifier.swift */,
+				92B6BD392CEF0756004AEB8F /* Toast.swift */,
 			);
 			path = DevSwiftUI;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 				92B6BD142CEC4AA9004AEB8F /* ViewModel.swift in Sources */,
 				8A76ED6B2CE631A30065FF66 /* TextEditor.swift in Sources */,
 				92B6BD122CEC3D2D004AEB8F /* DataFlow.swift in Sources */,
+				92B6BD3A2CEF0756004AEB8F /* Toast.swift in Sources */,
 				92B6BD042CEB67C6004AEB8F /* DisclosureGroup.swift in Sources */,
 				92B6BD242CECAF2D004AEB8F /* Graphics2.swift in Sources */,
 				8A76ED6D2CE636070065FF66 /* ListView.swift in Sources */,
