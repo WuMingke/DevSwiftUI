@@ -34,6 +34,8 @@
 		926E35552CE9F90E00AE08E5 /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E35542CE9F90E00AE08E5 /* NoteModel.swift */; };
 		926E35572CEA00CB00AE08E5 /* Dialog2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E35562CEA00CB00AE08E5 /* Dialog2.swift */; };
 		926E35592CEA02B300AE08E5 /* Dialog3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E35582CEA02B300AE08E5 /* Dialog3.swift */; };
+		928668592CF0BB6E00FC8B7E /* Animation3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928668582CF0BB6E00FC8B7E /* Animation3.swift */; };
+		9286685B2CF0BF4600FC8B7E /* Animation4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9286685A2CF0BF4600FC8B7E /* Animation4.swift */; };
 		92B6BCFE2CEB611B004AEB8F /* Dialog4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BCFD2CEB611B004AEB8F /* Dialog4.swift */; };
 		92B6BD002CEB633E004AEB8F /* Dialog5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BCFF2CEB633E004AEB8F /* Dialog5.swift */; };
 		92B6BD022CEB6548004AEB8F /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD012CEB6548004AEB8F /* ScrollView.swift */; };
@@ -98,6 +100,8 @@
 		926E35542CE9F90E00AE08E5 /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
 		926E35562CEA00CB00AE08E5 /* Dialog2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog2.swift; sourceTree = "<group>"; };
 		926E35582CEA02B300AE08E5 /* Dialog3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog3.swift; sourceTree = "<group>"; };
+		928668582CF0BB6E00FC8B7E /* Animation3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation3.swift; sourceTree = "<group>"; };
+		9286685A2CF0BF4600FC8B7E /* Animation4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation4.swift; sourceTree = "<group>"; };
 		92B6BCFD2CEB611B004AEB8F /* Dialog4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog4.swift; sourceTree = "<group>"; };
 		92B6BCFF2CEB633E004AEB8F /* Dialog5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog5.swift; sourceTree = "<group>"; };
 		92B6BD012CEB6548004AEB8F /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
@@ -212,6 +216,8 @@
 				92B6BD392CEF0756004AEB8F /* Toast.swift */,
 				92B6BD3B2CEF4707004AEB8F /* Animation.swift */,
 				92B6BD3D2CEF4A40004AEB8F /* Animation2.swift */,
+				928668582CF0BB6E00FC8B7E /* Animation3.swift */,
+				9286685A2CF0BF4600FC8B7E /* Animation4.swift */,
 			);
 			path = DevSwiftUI;
 			sourceTree = "<group>";
@@ -362,6 +368,7 @@
 				92B6BD1E2CEC7C46004AEB8F /* NetworkRequestMVVM.swift in Sources */,
 				92B6BD182CEC7049004AEB8F /* ColorModel.swift in Sources */,
 				9248A2E22CE8A6F9009BCD57 /* NavigationView.swift in Sources */,
+				9286685B2CF0BF4600FC8B7E /* Animation4.swift in Sources */,
 				92B6BD222CECA5A2004AEB8F /* Graphics.swift in Sources */,
 				926E354A2CE9DB9500AE08E5 /* BannerModel.swift in Sources */,
 				92B6BD002CEB633E004AEB8F /* Dialog5.swift in Sources */,
@@ -378,6 +385,7 @@
 				8A76ED612CE516210065FF66 /* Button.swift in Sources */,
 				8A76ED592CE4DA540065FF66 /* Stack.swift in Sources */,
 				926E35482CE9D1C700AE08E5 /* IndexView.swift in Sources */,
+				928668592CF0BB6E00FC8B7E /* Animation3.swift in Sources */,
 				8A76ED5B2CE4DF970065FF66 /* StatusPageView.swift in Sources */,
 				92B6BD0C2CEB76A9004AEB8F /* Gesture4.swift in Sources */,
 				926BAF492CE79BAA00F1D40F /* HildeKeyboard.swift in Sources */,
