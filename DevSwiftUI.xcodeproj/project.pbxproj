@@ -46,6 +46,7 @@
 		928668722CF1AEAF00FC8B7E /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928668712CF1AEAF00FC8B7E /* AppIntent.swift */; };
 		928668742CF1AEB000FC8B7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928668732CF1AEB000FC8B7E /* Assets.xcassets */; };
 		928668782CF1AEB000FC8B7E /* MyWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 928668642CF1AEAF00FC8B7E /* MyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9286687F2CF1EC8A00FC8B7E /* 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9286687E2CF1EC8A00FC8B7E /* 1.swift */; };
 		92B6BCFE2CEB611B004AEB8F /* Dialog4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BCFD2CEB611B004AEB8F /* Dialog4.swift */; };
 		92B6BD002CEB633E004AEB8F /* Dialog5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BCFF2CEB633E004AEB8F /* Dialog5.swift */; };
 		92B6BD022CEB6548004AEB8F /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6BD012CEB6548004AEB8F /* ScrollView.swift */; };
@@ -147,6 +148,7 @@
 		928668712CF1AEAF00FC8B7E /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
 		928668732CF1AEB000FC8B7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		928668752CF1AEB000FC8B7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9286687E2CF1EC8A00FC8B7E /* 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.swift; sourceTree = "<group>"; };
 		92B6BCFD2CEB611B004AEB8F /* Dialog4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog4.swift; sourceTree = "<group>"; };
 		92B6BCFF2CEB633E004AEB8F /* Dialog5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog5.swift; sourceTree = "<group>"; };
 		92B6BD012CEB6548004AEB8F /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 		8ADB5FFF2CE3ABAB00B3E218 = {
 			isa = PBXGroup;
 			children = (
+				9286687D2CF1EC6500FC8B7E /* Language */,
 				8ADB600A2CE3ABAB00B3E218 /* DevSwiftUI */,
 				9286686A2CF1AEAF00FC8B7E /* MyWidget */,
 				928668652CF1AEAF00FC8B7E /* Frameworks */,
@@ -346,6 +349,14 @@
 			path = MyWidget;
 			sourceTree = "<group>";
 		};
+		9286687D2CF1EC6500FC8B7E /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				9286687E2CF1EC8A00FC8B7E /* 1.swift */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -465,6 +476,7 @@
 				92B6BD0A2CEB749A004AEB8F /* Gesture3.swift in Sources */,
 				926E354C2CE9DE6800AE08E5 /* Form.swift in Sources */,
 				92B6BD202CEC8A57004AEB8F /* NoteApp.swift in Sources */,
+				9286687F2CF1EC8A00FC8B7E /* 1.swift in Sources */,
 				92B6BD142CEC4AA9004AEB8F /* ViewModel.swift in Sources */,
 				8A76ED6B2CE631A30065FF66 /* TextEditor.swift in Sources */,
 				92B6BD122CEC3D2D004AEB8F /* DataFlow.swift in Sources */,
